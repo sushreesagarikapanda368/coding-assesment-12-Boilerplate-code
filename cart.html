@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myt Cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <nav class="main-nav-div">
+      <div class="logo-div">
+        <div><img src="./Images/Meubel House_Logos-05.png" alt="" /></div>
+        <div class="logo-text">Marmeto</div>
+      </div>
+      <div class="nav-link-div">
+        <div>Home</div>
+        <div>Shop</div>
+        <div>About</div>
+        <div>Contact</div>
+      </div>
+      <div class="nav-img-div">
+        <div><img src="./Images/akar-icons_search.png" alt="" /></div>
+        <div><img src="./Images/akar-icons_heart.png" alt="" /></div>
+        <div>
+          <img src="./Images/ant-design_shopping-cart-outlined.png" alt="" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="row1">
+      <div class="row2-cart-div">
+        <div><img src="./Images/Meubel House_Logos-05.png" alt="" /></div>
+        <div class="row2-Cart-text">Cart</div>
+        <div class="row2-home-cart-text"><span>Home ></span> Cart</div>
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="row2-col-1">
+        <div class="card-head-div">
+          <div>Product</div>
+          <div>Price</div>
+          <div>Quantity</div>
+          <div>Subtotal</div>
+        </div>
+        <!-- Dynamic content will be added here -->
+        <div id="cart-items" class="cart-items-container"></div>
+      </div>
+      <div class="row-2-col-2">
+        <div class="cart-total-div"><h2>Cart Total</h2></div>
+        <div class="sub-total-div">
+          <div>Subtotal</div>
+          <div id="sub-total" class="sub-total-amount">Rs. 0.00</div>
+        </div>
+        <div class="Total-div">
+          <div>Total</div>
+          <div id="total-price" class="total-price-amount">Rs. 0.00</div>
+        </div>
+        <div>
+          <button class="check-out-btn"> Check Out</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div style="display: flex; gap: 5px;">
+        <div><img src="./Images/trophy 1.png" alt="" height="60px" width="60px"></div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 3px 0px;">
+          <div style="font-size: 25px; color: #242424; font-weight: 600;">High Quality</div>
+          <div style="font-size: 20px; font-weight: 500; color: #898989;">crafted from top materials</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 5px;">
+        <div><img src="./Images/guarantee.png" alt="" height="60px" width="60px"></div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 3px 0px;">
+          <div style="font-size: 25px; color: #242424; font-weight: 600;">Warranty Protection </div>
+          <div style="font-size : 20px; font-weight: 500; color: #898989;">Over 2 Years</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 5px;">
+        <div><img src="./Images/shipping.png" alt="" height="60px" width="60px"></div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 3px 0px;">
+          <div style="font-size: 25px; color: #242424; font-weight: 600;">Free Shipping</div>
+          <div style="font-size: 20px; font-weight: 500; color: #898989;">Order over 150 $</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 5px;">
+        <div><img src="./Images/customer-support.png" alt="" height="60px" width="60px"></div>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 3px 0px;">
+          <div style="font-size: 25px; color: #242424; font-weight: 600;">24 /7 Support</div>
+          <div style="font-size: 20px; font-weight: 500; color: #898989;">Dedicated support</div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
